@@ -1,13 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  
-  }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
   body {
-    background-color: #eeeeee;
-    font-family: 'Carter One', cursive;    
+    background-color: #eeeeee;   
     height: 100vh;
   }
 
@@ -15,6 +13,7 @@
 
   #container div {
     background:#ffffff; 
+    font-family: 'Carter One', cursive; 
     width:1440px; 
     max-width: 1440px;
     display: flex;
@@ -32,9 +31,9 @@
     width: 230px; 
   }
 
-  #container .titulo1{
+  #container .titulo1 {
     position:relative;
-    right: 290px;
+    right: 270px;
     top: 40px;
     font-size: x-large;
     color: #2458c8;
@@ -46,30 +45,47 @@
    #container .titulo2 {  
     align-self: center;
     position: relative;
-    right: 70px;
+    right: 45px;
     bottom: 20px;
   } 
 
-    #container div .botoes{
-    border: 1px solid black;
+    #container button { 
+    width: 80px;
+    font-family: 'Carter One', cursive; 
+    color: #2458c8;
+    border: solid white;
+    height: 100%;
+    font-size: x-large;;
+    background-color: white;
+    display: flex;
     align-items: center;
-     
-
+    position: relative;
+    top: 75px;
+    right: 150px;    
+    cursor: grab;
    } 
 
+   #container button:hover {
+    border-bottom: groove rgb( 128, 128, 128, 0.6);
+    border-right: groove rgb( 128, 128, 128, 0.6);
+    border-bottom-right-radius: 20%;
+    
+   }
    /* Estilizando foto do bolo e titulo*/
 
-   .titulo3 {
+   h3 {
     text-align: center;
-    color: #2458c8;
+    color: #01050d;
     font-size: x-large;
-   }
+    padding-top: 230px;
+    font-family: 'Carter One', cursive; 
+   }  
 
-   figure {
+   figure  {
     width: 100%;
-    padding: 20px 300px 20px 300px;
+    padding: 40px 300px 20px 300px;
     text-align: center;
-    display: flex;
+    display: flex;   
     flex-flow: column;
    }
 
