@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+
+  body {
+    background-color: #eeeeee;
+    font-family: 'Carter One', cursive;    
+    height: 100vh;
+  }
+
+  /* Estilizando container*/
+
+  #container div {
+    background:#ffffff; 
+    width:1440px; 
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: groove rgb( 128, 128, 128, 0.6);
+    border-bottom-right-radius: 5% ;
+    padding: 20px;
+    margin: 0px auto;
+    margin-left: 25px;
+    position: fixed;
+
+  }
+  
+  #container img {
+    width: 230px; 
+  }
+
+  #container .titulo1{
+    position:relative;
+    right: 290px;
+    top: 40px;
+    font-size: x-large;
+    color: #2458c8;
+    display: flex;
+    align-items: flex-start;
+
+  }
+    
+   #container .titulo2 {  
+    align-self: center;
+    position: relative;
+    right: 70px;
+    bottom: 20px;
+  } 
+
+    #container div .botoes{
+    border: 1px solid black;
+    align-items: center;
+     
+
+   } 
+
+   /* Estilizando foto do bolo e titulo*/
+
+   .titulo3 {
+    text-align: center;
+    color: #2458c8;
+    font-size: x-large;
+   }
+
+   figure {
+    width: 100%;
+    padding: 20px 300px 20px 300px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+   }
+
+   figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center; 
+   }
+
